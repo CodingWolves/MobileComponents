@@ -1,0 +1,21 @@
+.header {
+    background: #0000CD ;
+    display: grid;
+    grid-template-columns: auto 15vw;
+    align-items: center;
+}
+
+.header__title {
+    font-size: 90vh;
+    color: #F5F5F5;
+    // text-align: left;
+    // margin: 2rem;
+}
+
+.header__button {
+    font-size: 2rem;
+    // text-align: left;
+    color: #0000CD;
+    background: #F5F5F5;
+    // margin: 2rem;
+}
