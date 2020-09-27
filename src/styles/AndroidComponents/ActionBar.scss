@@ -1,21 +1,30 @@
 .header {
-    background: #0000CD ;
+    height: 20vh;
+    background: #3893c8;
     display: grid;
-    grid-template-columns: auto 15vw;
+    grid-template-columns: auto 5vw;
     align-items: center;
 }
 
-.header__title {
-    font-size: 90vh;
-    color: #F5F5F5;
-    // text-align: left;
-    // margin: 2rem;
+.header_title {
+    margin-left: 2vw;
+    font-size: 5vh;
 }
 
-.header__button {
-    font-size: 2rem;
-    // text-align: left;
-    color: #0000CD;
-    background: #F5F5F5;
-    // margin: 2rem;
+.header_button {
+    background-color: transparent;
+    border: none;
+}
+
+.header_image {
+    width: 80%;
+}
+
+.floating_button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
 }

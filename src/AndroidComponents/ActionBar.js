@@ -1,12 +1,14 @@
 import React from "react"
+import { KebabMenu } from "./KebabMenu"
 
-export const ActionBar = () => (
-    <div className="header">
-        <p className="header__title">
-            title
-        </p>
-        <button>
-            <img></img>
-        </button>
-    </div>    
+export const ActionBar = (props) => (
+    <div>
+        <div className="header">
+            <span className="header_title">
+                {props.children}
+            </span>
+
+            <KebabMenu />
+        </div>
+    </div>
 )
